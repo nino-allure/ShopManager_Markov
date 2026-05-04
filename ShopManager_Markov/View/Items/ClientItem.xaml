@@ -75,8 +75,8 @@
                     <DropShadowEffect Opacity="0.1"/>
                 </Grid.Effect>
                 <Label Content="Сумма покупок:" VerticalAlignment="Top" Margin="10,0,10,0"/>
-                <TextBox Text="{Binding TotalPurchasesText}" IsEnabled="False" 
-                         VerticalContentAlignment="Center" Height="25" Margin="10,25,10,0"/>
+                <TextBlock Text="{Binding TotalPurchasesText}" IsEnabled="False" 
+                         Height="25" Margin="10,25,10,0"/>
             </Grid>
 
             <Grid Margin="10,150,10,0" Height="60" VerticalAlignment="Top" Background="White" Grid.Column="1">
